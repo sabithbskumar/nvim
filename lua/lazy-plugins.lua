@@ -15,6 +15,7 @@ require("lazy").setup({
   -- Use `opts = {}` to force a plugin to be loaded.
   require("plugins.theme"),
   require("plugins.treesitter"),
+  require("plugins.file-manager"),
 }, {
   ui = {
     icons = vim.g.use_nerd_font and {} or {
