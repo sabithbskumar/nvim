@@ -16,6 +16,7 @@ require("lazy").setup({
   require("plugins.theme"),
   require("plugins.treesitter"),
   require("plugins.file-manager"),
+  require("plugins.tabline"),
 }, {
   ui = {
     icons = vim.g.use_nerd_font and {} or {
