@@ -24,6 +24,11 @@ require("lazy").setup({
   require("plugins.mini"),
   require("plugins.todo-comments"),
   require("plugins.treesitter"),
+
+  require("plugins.git-signs"),
+  require("plugins.indent-line"),
+  require("plugins.lint"),
+  require("plugins.autopair"),
 }, {
   ui = {
     icons = vim.g.use_nerd_font and {} or {
