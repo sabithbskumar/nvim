@@ -17,11 +17,13 @@ require("lazy").setup({
   require("plugins.which-key"),
   require("plugins.telescope"),
   require("plugins.lspconfig"),
+  require("plugins.conform"),
   require("plugins.cmp"),
-  require("plugins.treesitter"),
   require("plugins.file-manager"),
   require("plugins.tabline"),
   require("plugins.mini"),
+  require("plugins.todo-comments"),
+  require("plugins.treesitter"),
 }, {
   ui = {
     icons = vim.g.use_nerd_font and {} or {
