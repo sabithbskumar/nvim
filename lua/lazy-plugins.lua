@@ -15,6 +15,7 @@ require("lazy").setup({
   -- Use `opts = {}` to force a plugin to be loaded.
   require("plugins.theme"),
   require("plugins.which-key"),
+  require("plugins.telescope"),
   require("plugins.treesitter"),
   require("plugins.file-manager"),
   require("plugins.tabline"),
