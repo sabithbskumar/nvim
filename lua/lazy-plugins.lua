@@ -26,6 +26,8 @@ require("lazy").setup({
   require("plugins.todo-comments"),
   require("plugins.treesitter"),
 
+  require("plugins.typescript-tools"),
+
   require("plugins.git-signs"),
   require("plugins.indent-line"),
   require("plugins.lint"),
