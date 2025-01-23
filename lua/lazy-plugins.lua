@@ -16,6 +16,8 @@ require("lazy").setup({
   require("plugins.theme"),
   require("plugins.which-key"),
   require("plugins.telescope"),
+  require("plugins.lspconfig"),
+  require("plugins.cmp"),
   require("plugins.treesitter"),
   require("plugins.file-manager"),
   require("plugins.tabline"),
