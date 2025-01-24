@@ -34,6 +34,10 @@ return {
       --  into multiple repos for maintenance purposes.
       "hrsh7th/cmp-nvim-lsp",
       "hrsh7th/cmp-path",
+
+      -- Tailwind tools and dependencies
+      "luckasRanarison/tailwind-tools.nvim",
+      "onsails/lspkind-nvim",
     },
     config = function()
       -- See `:help cmp`
@@ -48,6 +52,12 @@ return {
           end,
         },
         completion = { completeopt = "menu,menuone,noinsert" },
+
+        formatting = {
+          format = require("lspkind").cmp_format({
+            before = require("tailwind-tools.cmp").lspkind_format,
+          }),
+        },
 
         -- INFO: `:help ins-completion`
         --
