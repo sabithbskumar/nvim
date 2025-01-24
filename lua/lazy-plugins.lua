@@ -42,6 +42,8 @@ require("lazy").setup({
   import("plugins.indent-line"),
   import("plugins.lint"),
   import("plugins.autopair"),
+
+  import("plugins.startify"),
 }, {
   ui = {
     icons = vim.g.use_nerd_font and {} or {
